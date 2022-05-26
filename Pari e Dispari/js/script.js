@@ -7,7 +7,7 @@
 // Dichiariamo chi ha vinto. Se l’utente aveva scelto pari e la somma è pari, 
 // ha vinto l’utente, altrimenti il computer
 
-const pickInput = prompt("pari o dispari?");
+let pickInput = prompt("pari o dispari?");
 
 while (pickInput.toUpperCase() !== "PARI" || pickInput.toUpperCase() !== "DISPARI"){
   pickInput = prompt("hai inserito un valore non valido, scegli, pari o dispari?");
